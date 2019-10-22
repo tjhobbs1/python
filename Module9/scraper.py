@@ -1,3 +1,12 @@
+"""
+Program:  scraper.py
+Author:  Ty Hobbs
+Last Day Modified:  10/20/2019
+
+The purpose of the program is to go out to a webpage that has been specified and scrape it for HTML and then return it.
+It uses an addon that also makes it more readable. 
+"""
+
 import requests
 import bs4 as bs
 
