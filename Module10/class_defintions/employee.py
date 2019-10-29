@@ -6,10 +6,8 @@ Last Day Modified:  10/28/2019
 The purpose of the program is to build a reusable Employee class.  It will display how to use the init method to build an Employee object and return the info to the user.
 """
 import datetime
-class Employee:
+class Employee():
 
-    def __int__(self):
-        pass
     def __init__(self, lname, fname, address, phone,is_salaried,start_date, salary):
          self.last_name = lname
          self.first_name = fname
