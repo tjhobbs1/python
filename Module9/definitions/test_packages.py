@@ -6,8 +6,8 @@ Last Day Modified:  10/20/2019
 The purpose of the program is to test the importing of packages.
 """
 
-import Module9.definitions.dictionary_ops as dictionary ,Module9.definitions.greeting as greeting,\
-    Module9.definitions.set_ops as set_ops
+import definitions.dictionary_ops as dictionary , greeting as greeting,\
+    set_ops as set_ops
 
 #  Calls the greeting function
 greeting.greeting()

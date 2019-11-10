@@ -32,7 +32,7 @@ class Customer():
         return "{}".format(self.address)
 
     def __str__(self):
-        return "{}".format(self.first_name)
+        return "{}{}".format(self.first_name,self.last_name)
 
     def display(self):
         return "Customer ID: {} \nCustomer Name: {},{}\nCustomer Phone: {}\nCustomer Address: {}".format(self.customer_id,self.last_name,self.first_name,self.phone_number,self.address)
