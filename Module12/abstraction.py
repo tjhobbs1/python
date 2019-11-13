@@ -10,7 +10,7 @@ from abc import ABC, abstractmethod
 
 class Rider(ABC):
     """
-    A abstract class
+    An abstract class called Rider
     """
     @abstractmethod
     def ride(self):
@@ -23,7 +23,7 @@ class Rider(ABC):
 
 class Motorcycle(Rider):
     """
-    Motorcycle class
+    Motorcycle subclass
     """
     def ride(self):
         return "Engine powered, not enclosed"
@@ -32,7 +32,7 @@ class Motorcycle(Rider):
         return "1 or 2"
 
 class Bicycle(Rider):
-    """Bicycle Class"""
+    """Bicycle subclass"""
     def ride(self):
         return "Human powered, not enclosed"
 
@@ -40,7 +40,7 @@ class Bicycle(Rider):
         return "1 or 2 if tandem or a daredevil"
 
 class Car(Rider):
-    """Car Class"""
+    """Car subclass"""
     def ride(self):
         return "Engine powered, enclosed"
 
